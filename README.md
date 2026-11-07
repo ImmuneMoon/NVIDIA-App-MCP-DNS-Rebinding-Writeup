@@ -19,6 +19,8 @@ This writeup separates what's confirmed from what's reported and what's unknown.
 ## 🚀 How to Read It
 Download the PDF above, or read on below. **The Short Version** gives the conclusions in a few lines. Sections 4 to 6 explain the attack and the defenses, and Section 8 shows how to check your own PC.
 
+New to CORS and the `Origin` and `Host` headers? [Learn Back End Web Development](https://github.com/ImmuneMoon/Learn-Back-End-Web-Development#102-cors-origin-and-host) explains them from the start.
+
 ---
 
 <!-- guide:start -->
