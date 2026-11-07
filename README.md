@@ -3,7 +3,6 @@
 ![Type: security writeup](https://img.shields.io/badge/Type-security%20writeup-d73a49)
 ![Topic: DNS rebinding](https://img.shields.io/badge/Topic-DNS%20rebinding-6f42c1)
 ![Status: no CVE, not tested](https://img.shields.io/badge/NVIDIA%20App-no%20CVE%20%7C%20not%20tested-lightgrey)
-![Checked November 2026](https://img.shields.io/badge/Checked-Nov%202026-2ea44f)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
 
 **📄 [Download the PDF](NVIDIA-App-MCP-DNS-Rebinding-Writeup.pdf)**
