@@ -13,7 +13,7 @@ In October 2026, a beta of the NVIDIA App added a local **Model Context Protocol
 This writeup separates what's confirmed from what's reported and what's unknown. It explains how a DNS rebinding attack against a local server really works, corrects some common misconceptions about it (CORS doesn't stop it), and shows in detail how **HTTP header validation** does. It ends with real CVEs in the same class, and how to check your own PC.
 
 ## ⚠️ Scope and Disclaimer
-**No testing was done against the NVIDIA App.** This writeup doesn't claim the NVIDIA App is vulnerable. As of November 2026, no CVE or public exploit exists for its MCP server, and NVIDIA hasn't documented whether it checks the `Host` or `Origin` headers. It describes a well-documented class of risk, the defenses against it, and the facts about this feature that could be confirmed from primary sources. Everything was checked in November 2026, and the feature is new, so details may change.
+**No testing was done against the NVIDIA App.** This writeup doesn't claim the NVIDIA App is vulnerable. As of November 2026, no CVE or public exploit exists for its MCP server, and NVIDIA hasn't documented whether it checks the `Host` or `Origin` headers. It describes a well-documented class of risk, the defenses against it, and the facts about this feature that could be confirmed from primary sources. The feature is new, so details may change.
 
 ## 🚀 How to Read It
 Download the PDF above, or read on below. **The Short Version** gives the conclusions in a few lines. Sections 4 to 6 explain the attack and the defenses, and Section 8 shows how to check your own PC.
@@ -23,8 +23,6 @@ New to CORS and the `Origin` and `Host` headers? [Learn Back End Web Development
 ---
 
 <!-- guide:start -->
-
-*Checked against primary sources in November 2026. No testing was performed against the NVIDIA App.*
 
 ## The Short Version
 
@@ -336,8 +334,6 @@ Answers circulating about this feature, including AI-generated ones, contain sev
 ---
 
 ## 11. Sources
-
-Checked in November 2026.
 
 **NVIDIA**
 - [NVIDIA App release highlights (11.0.9.565)](https://www.nvidia.com/en-us/software/nvidia-app/release-highlights/)
